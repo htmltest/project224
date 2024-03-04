@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <title>Ganzo</title>
+
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="js/swiper/swiper-bundle.min.css" />
+
+        <link rel="apple-touch-icon-precomposed" sizes="57x57" href="apple-touch-icon-57x57.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple-touch-icon-114x114.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="apple-touch-icon-144x144.png">
+        <link rel="apple-touch-icon-precomposed" sizes="60x60" href="apple-touch-icon-60x60.png">
+        <link rel="apple-touch-icon-precomposed" sizes="120x120" href="apple-touch-icon-120x120.png">
+        <link rel="apple-touch-icon-precomposed" sizes="76x76" href="apple-touch-icon-76x76.png">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="apple-touch-icon-152x152.png">
+        <link rel="icon" type="image/png" href="favicon-196x196.png" sizes="196x196">
+        <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96">
+        <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
+        <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16">
+        <link rel="icon" type="image/png" href="favicon-128.png" sizes="128x128">
+        <meta name="application-name" content="Ganzo">
+        <meta name="msapplication-TileColor" content="#FFFFFF">
+        <meta name="msapplication-TileImage" content="mstile-144x144.png">
+        <meta name="msapplication-square70x70logo" content="mstile-70x70.png">
+        <meta name="msapplication-square150x150logo" content="mstile-150x150.png">
+        <meta name="msapplication-wide310x150logo" content="mstile-310x150.png">
+        <meta name="msapplication-square310x310logo" content="mstile-310x310.png">
+
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width">
+    </head>
+
+    <body>
+
+        <!-- wrapper -->
+        <div class="wrapper">
+            <div class="wrapper-inner">
+
+                <div class="container">
+                    <h2>Список страниц</h2>
+
+                    <h3>Общие страницы</h3>
+                    <p><a href="ganzo-01-main.html">Главная страница</a></p>
+                    <p><a href="ganzo-02-about.html">О бренде</a></p>
+                    <p><a href="ganzo-03-quiz.html">Твой Ganzo</a></p>
+                    <p><a href="ganzo-06-buy.html">Где купить</a></p>
+                    <p><a href="ganzo-07-faq.html">FAQ</a></p>
+                    <p><a href="ganzo-08-contacts.html">Контакты</a></p>
+                    <p><a href="ganzo-09-policy.html">Политика конфиденциальности</a></p>
+
+                    <h3>Наша продукция</h3>
+                    <p><a href="ganzo-04-catalogue.html">Наша продукция</a></p>
+                    <p><a href="ganzo-05-card-classic.html">Карточка товара (Classic)</a></p>
+                    <p><a href="ganzo-05-card-thin.html">Карточка товара (Ultra Thin)</a></p>
+                    <p><a href="ganzo-05-card-extase.html">Карточка товара (Extase)</a></p>
+                    <p><a href="ganzo-05-card-xxl.html">Карточка товара (XXL)</a></p>
+                    <p><a href="ganzo-05-card-juice.html">Карточка товара (Juice)</a></p>
+                    <p><a href="ganzo-05-card-mixed.html">Карточка товара (Mixed)</a></p>
+
+                    <h3>Служебные страницы</h3>
+                    <p><a href="ganzo-00-typography.html">Типографика</a></p>
+                    <p><a href="ganzo-00-404.html">Страница 404</a></p>
+                    <p><a href="ganzo-00-search.html">Результат поиска</a></p>
+
+                    <h3>Попапы</h3>
+                    <p><a href="#" onClick="$.removeCookie('window-age'); document.location.reload(); return false; ">Тебе уже 18?</a></p>
+                </div>
+
+            </div>
+        </div>
+        <!-- wrapper END -->
+
+        <div class="window">
+            <div class="window-container">
+                <div class="window-age">
+                    <div class="window-age-logo"><svg><use xlink:href="images/sprite.svg#logo"></use></svg></div>
+                    <div class="window-age-text">Просмотр материалов данного сайта предназначен исключительно для совершеннолетних лиц. Если вам не&nbsp;исполнилось 18&nbsp;лет, просим немедленно покинуть сайт!</div>
+                    <div class="window-age-title">Тебе уже 18 ?</div>
+                    <div class="window-age-btns">
+                        <a href="#" class="btn window-age-yes"><span>Да</span></a>
+                        <a href="https://yandex.ru" class="btn btn-border window-age-no"><span>Нет</span></a>
+                    </div>
+                    <div class="form-checkbox">
+                        <label><input type="checkbox" name="remember" checked><span>Запомнить меня</span></label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            var pathTemplate = './';
+        </script>
+        <script src="js/fonts.js"></script>
+
+        <script src="js/svg4everybody.min.js"></script>
+        <script>svg4everybody();</script>
+
+        <script src="js/jquery-3.4.1.min.js"></script>
+        <script src="js/validation/jquery.validate.min.js"></script>
+        <script src="js/validation/messages_ru.js"></script>
+        <script src="js/swiper/swiper-bundle.min.js"></script>
+        <script src="js/jquery.cookie.js"></script>
+        <script src="js/tools.js"></script>
+
+    </body>
+</html>
