@@ -172,11 +172,12 @@ header .container {display:flex; height:90px; align-items:center; position:relat
     .menu-mobile-open header .container {display:block; height:auto; position:static; padding:63px 0 83px 0; width:100%}
 }
 
-.logo {width:136px; max-width:0; padding:7px 0 0 0}
+.logo {width:136px; max-width:0; padding:7px 0 0 0; position:relative}
 .logo svg {display:block; width:136px; height:48px; fill:#ECEC15}
 
 @media (max-width:1199px) {
     .logo {width:100%; max-width:none; padding:17px 0 0 0}
+    .logo a {display:block; width:108px}
     .logo svg {width:108px; height:38px}
 
     .menu-mobile-open .logo {display:none}
