@@ -1081,12 +1081,12 @@ footer {position:relative}
 
 .footer-menu {width:33.33%; padding:52px 0 0 0; font-size:16px; line-height:18px; display:flex}
 .fonts-loaded .footer-menu {font-family:Manrope, sans-serif}
-.footer-menu ul {max-width:100%; white-space:nowrap; margin:0; padding:0; list-style:none; column-count:2; column-gap:0}
+.footer-menu ul {max-width:100%; margin:0; padding:0; list-style:none; column-count:2; column-gap:20px}
 .footer-menu ul li {margin:0; padding:0 0 16px 0; -webkit-column-break-inside:avoid; page-break-inside:avoid; break-inside:avoid; break-inside:avoid-column; max-width:146px}
 .footer-menu ul li::before {display:none}
 .footer-menu ul li a {color:#FFFFFF}
 .footer-menu ul li a:hover {color:#ECEC15}
-.footer-menu ul li.footer-menu-download a {display:inline-block; vertical-align:top; border-top:1px solid rgba(255, 255, 255, 0.2); padding:16px 0 0 0}
+.footer-menu ul li.footer-menu-download a {display:inline-block; vertical-align:top; border-top:1px solid rgba(255, 255, 255, 0.2); padding:16px 0 0 0; white-space:nowrap}
 .footer-menu ul li svg {display:inline-block; vertical-align:middle; width:20px; height:20px; margin:-2px 8px 0 0; fill:none; stroke:#FFFFFF; transition:stroke 0.2s}
 .footer-menu ul li a:hover svg {stroke:#ECEC15}
 
