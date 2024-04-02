@@ -172,13 +172,13 @@ header .container {display:flex; height:90px; align-items:center; position:relat
     .menu-mobile-open header .container {display:block; height:auto; position:static; padding:63px 0 83px 0; width:100%}
 }
 
-.logo {width:136px; max-width:0; padding:7px 0 0 0; position:relative}
-.logo svg {display:block; width:136px; height:48px; fill:#ECEC15}
+.logo {width:148px; max-width:0; padding:7px 0 0 0; position:relative}
+.logo svg {display:block; width:148px; height:48px; fill:#ECEC15}
 
 @media (max-width:1199px) {
     .logo {width:100%; max-width:none; padding:17px 0 0 0}
-    .logo a {display:block; width:108px}
-    .logo svg {width:108px; height:38px}
+    .logo a {display:block; width:117px}
+    .logo svg {width:117px; height:38px}
 
     .menu-mobile-open .logo {display:none}
 }
@@ -400,6 +400,8 @@ header .container {display:flex; height:90px; align-items:center; position:relat
 .main-play-bubble-center-list a {display:flex; color:#FFFFFF; text-decoration:none; margin:10px 5px 0 5px; align-items:center; padding:5px 15px 6px 15px; position:relative; text-align:center}
 .main-play-bubble-center-list a::before {content:""; position:absolute; left:0; top:0; right:0; bottom:0; border:1px solid #FFFFFF; border-radius:42px}
 .main-play-bubble-center-list a em {position:absolute; left:0; top:0; right:0; bottom:0; border-radius:42px; opacity:0; transition:opacity 0.2s}
+.main-play-bubble-center-list a.hover em,
+.main-play-bubble-center-list a:hover em,
 .main-play-bubble-center-list a.active em {opacity:1}
 .main-play-bubble-center-list a span {position:relative}
 .main-play-bubble {position:absolute; width:0; height:0; left:50%; top:50%; animation-duration:60s; animation-timing-function:linear; animation-iteration-count:infinite; cursor:pointer}
@@ -419,6 +421,8 @@ header .container {display:flex; height:90px; align-items:center; position:relat
 .main-play-bubble-5 .main-play-bubble-container {animation-name:spin3-inverse}
 .main-play-bubble-6 .main-play-bubble-container {animation-name:spin5-inverse}
 .main-play-bubble-icon {position:absolute; left:0; top:0; width:190px; height:190px; background:no-repeat center; transition:opacity 0.2s}
+.main-play-bubble:hover .main-play-bubble-icon,
+.main-play-bubble.hover .main-play-bubble-icon,
 .main-play-bubble.active .main-play-bubble-icon {opacity:0; pointer-events:none}
 .main-play-bubble-1 .main-play-bubble-icon {background-image:url(../images/main-play-bubble-1.png)}
 .main-play-bubble-2 .main-play-bubble-icon {background-image:url(../images/main-play-bubble-2.png)}
@@ -433,6 +437,8 @@ header .container {display:flex; height:90px; align-items:center; position:relat
 .main-play-bubble-4 .main-play-bubble-content {width:227px; height:225px}
 .main-play-bubble-5 .main-play-bubble-content {width:278px; height:278px}
 .main-play-bubble-6 .main-play-bubble-content {width:264px; height:263px}
+.main-play-bubble:hover .main-play-bubble-content,
+.main-play-bubble.hover .main-play-bubble-content,
 .main-play-bubble.active .main-play-bubble-content {opacity:1; pointer-events:auto}
 .main-play-bubble-img {position:absolute; left:0; top:0; right:0; bottom:0}
 .main-play-bubble-img img {position:absolute; display:block; width:125px}
@@ -1053,7 +1059,7 @@ footer {position:relative}
 }
 
 .footer-left {width:33.33%; padding:39px 0 37px 0}
-.footer-logo svg {display:block; width:136px; height:48px; fill:#ECEC15}
+.footer-logo svg {display:block; width:148px; height:48px; fill:#ECEC15}
 .footer-text {margin:24px 0 0 0; min-height:178px; max-width:350px; font-size:12px; line-height:14px; letter-spacing:-0.02em; color:#B2B2B2}
 .footer-bottom {margin:24px 0 0 0; display:flex; align-items:center}
 .footer-social {display:flex}
@@ -1073,7 +1079,7 @@ footer {position:relative}
 
 @media (max-width:1199px) {
     .footer-left {width:auto; padding:31px 0 0 0; position:relative}
-    .footer-logo svg {width:115px; height:40px}
+    .footer-logo svg {width:125px; height:40px}
     .footer-text {margin:28px 0 0 0; min-height:0; max-width:none}
     .footer-bottom {margin:28px 0 0 0}
     .footer-lang {position:absolute; margin:0; right:0; top:32px; font-size:20px; line-height:27px}
@@ -1123,7 +1129,7 @@ footer {position:relative}
 .window-container {display:inline-block; vertical-align:middle; position:relative; text-align:left; background:rgba(0, 0, 0, 0.8); border-radius:4px; margin:30px 0}
 
 .window-age {width:600px; padding:77px 77px 55px 77px; text-align:center}
-.window-age-logo svg {display:block; width:305px; height:108px; margin:0 auto; fill:#ECEC15}
+.window-age-logo svg {display:block; width:338px; height:110px; margin:0 auto; fill:#ECEC15}
 .window-age-text {margin:40px 0 0 0; font-weight:bold; font-size:22px; line-height:26px; color:#BFBFBF}
 .window-age-title {margin:29px 0 0 0; font-weight:bold; font-size:22px; line-height:26px; color:#FFFFFF}
 .window-age-btns {margin:16px 0 0 0; display:flex; align-items:center; justify-content:center}
@@ -1132,7 +1138,7 @@ footer {position:relative}
 
 @media (max-width:1199px) {
     .window-age {width:335px; padding:58px 42px 42px 42px}
-    .window-age-logo svg {width:251px; height:88px}
+    .window-age-logo svg {width:268px; height:88px}
     .window-age-text {margin:32px 0 0 0; font-size:18px; line-height:22px}
     .window-age-title {margin:30px 0 0 0; font-size:18px; line-height:22px}
     .window-age-btns a {margin:0 2px; min-width:129px}

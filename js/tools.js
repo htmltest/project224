@@ -83,6 +83,16 @@ $(document).ready(function() {
         e.preventDefault();
     });
 
+    $('.main-play-bubble-center-list a').on('mouseenter', function(e) {
+        var curLink = $(this);
+        var curID = curLink.attr('data-id');
+        $('.main-play-bubble[data-id="' + curID + '"]').addClass('hover');
+    });
+
+    $('.main-play-bubble-center-list a').on('mouseleave', function(e) {
+        $('.main-play-bubble.hover').removeClass('hover');
+    });
+
     $('.main-play-bubble').click(function(e) {
         var curBubble = $(this);
         if (curBubble.hasClass('active')) {
@@ -95,6 +105,16 @@ $(document).ready(function() {
             $('.main-play-bubble-center-list a.active').removeClass('active');
             $('.main-play-bubble-center-list a[data-id="' + curID + '"]').addClass('active');
         }
+    });
+
+    $('.main-play-bubble').on('mouseenter', function(e) {
+        var curBubble = $(this);
+        var curID = curBubble.attr('data-id');
+        $('.main-play-bubble-center-list a[data-id="' + curID + '"]').addClass('hover');
+    });
+
+    $('.main-play-bubble').on('mouseleave', function(e) {
+        $('.main-play-bubble-center-list a.hover').removeClass('hover');
     });
 
     $('.quiz').each(function() {
